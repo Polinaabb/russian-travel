@@ -1,0 +1,18 @@
+.Intro__list {
+    color: #FFFFFF;
+    list-style-type: none;
+    text-align: left;
+    padding-inline-start: 0;
+    margin-top: 33px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 320px) and (max-width: 700px) {
+    .Intro__list {
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 32px;
+    }
+}
