@@ -4,17 +4,31 @@
     color: white;
     text-align: center;
     font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
     padding-top: 34px;
+    padding-bottom: 64px;
     margin: 0;
 }
 
+@media screen and (max-width: 1024px) {
+    .lead__subtitle {
+        padding-bottom: 56px;
+    }
+}
 
+@media screen and (max-width: 768px) {
+    .lead__subtitle {
+        padding-bottom: 56px;
+    }
+}
 
-@media screen and (max-width: 320px) and (max-width: 700px) {
+@media screen and (max-width: 320px) {
     .lead__subtitle {
         max-width: 288px;
-        max-height: 40px;
         font-size: 16px;
+        line-height: 20px;
         padding-top: 16px;
+        padding-bottom: 40px;
     }
 }

@@ -7,12 +7,11 @@
     margin-bottom: 0;
     font-size: 12px;
     font-weight: 700;
+    line-height: 18px;
 }
 
-@media screen and (max-width: 320px) and (max-width: 700px) {
-    .Intro__list {
-        font-size: 12px;
-        font-weight: 400;
+@media screen and (max-width: 320px) {
+    .intro__list {
         margin-top: 32px;
     }
 }
