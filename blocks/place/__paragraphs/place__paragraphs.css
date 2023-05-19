@@ -19,14 +19,20 @@
 
 @media screen and (max-width: 610px) {
     .place__paragraphs {
+        padding-top: 32px;
         padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .place__paragraphs {
+        padding-left: 16px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__paragraphs {
         max-width: 288px;
-        padding-left: 16px;
         padding-top: 32px;
         gap: 25px;
     }
