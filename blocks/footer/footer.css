@@ -9,6 +9,12 @@
     padding-bottom: 24px;
 }
 
+@media screen and (max-width: 768px) {
+    .footer {
+        padding-top: 88px;
+    }
+}
+
 @media screen and (max-width: 690px) {
     .footer {
         display: flex;

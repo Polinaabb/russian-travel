@@ -9,6 +9,7 @@
     justify-content: center;
     margin: 0 auto;
     position: relative;
+    margin-top: 92px;
 }
 
 .cover::after {
@@ -27,12 +28,14 @@
 @media screen and (max-width: 768px) {
     .cover {
         min-height: 480px;
+        margin-top: 90px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .cover {
         min-height: 350px;
+        margin-top: 66px;
     }
 }
 
